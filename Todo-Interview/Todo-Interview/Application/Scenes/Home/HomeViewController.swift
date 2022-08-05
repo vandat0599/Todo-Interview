@@ -24,15 +24,17 @@ class HomeViewController: UIViewController {
         view.setTitle("Buy List", for: .normal)
         view.backgroundColor = .lightGray
         view.setTitleColor(.black, for: .normal)
+        view.addTarget(self, action: #selector(toBuyTapped), for: .touchUpInside)
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
     
     private lazy var sellListButton: UIButton = {
         let view = UIButton()
-        view.setTitle("Buy List", for: .normal)
+        view.setTitle("Sell List", for: .normal)
         view.backgroundColor = .lightGray
         view.setTitleColor(.black, for: .normal)
+        view.addTarget(self, action: #selector(toSellTapped), for: .touchUpInside)
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
@@ -82,5 +84,13 @@ class HomeViewController: UIViewController {
     
     @objc private func toCallTapped() {
         viewModel.navigator.toCall()
+    }
+    
+    @objc private func toBuyTapped() {
+        viewModel.navigator.toBuy()
+    }
+    
+    @objc private func toSellTapped() {
+        
     }
 }

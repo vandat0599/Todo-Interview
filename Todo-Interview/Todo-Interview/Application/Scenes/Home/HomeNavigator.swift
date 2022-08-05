@@ -32,7 +32,13 @@ class HomeNavigator: HomeNavigatorType {
     }
     
     func toBuy() {
+        let viewModel = BuyListViewModel(
+            productUseCase: ProductNetworkUseCase(),
+            navigator: BuyListNavigator(navigationController: navigationController)
+        )
         
+        let viewController = BuyListViewController(viewModel: viewModel)
+        navigationController.pushViewController(viewController, animated: true)
     }
     
     func toSell() {

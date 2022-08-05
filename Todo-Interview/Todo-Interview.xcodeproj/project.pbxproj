@@ -26,17 +26,24 @@
 		DFCCDB5D289C01930058AEA4 /* CallListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDB5C289C01930058AEA4 /* CallListViewController.swift */; };
 		DFCCDB5F289C02F20058AEA4 /* HomeNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDB5E289C02F20058AEA4 /* HomeNavigator.swift */; };
 		DFCCDB61289C03C10058AEA4 /* ProductUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDB60289C03C10058AEA4 /* ProductUseCase.swift */; };
-		DFCCDB66289C0BE20058AEA4 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDB65289C0BE20058AEA4 /* Network.swift */; };
-		DFCCDB68289C12540058AEA4 /* NetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDB67289C12540058AEA4 /* NetworkProvider.swift */; };
-		DFCCDB6B289C12B20058AEA4 /* ProductNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDB6A289C12B20058AEA4 /* ProductNetwork.swift */; };
-		DFCCDB6D289C13F40058AEA4 /* UserNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDB6C289C13F40058AEA4 /* UserNetwork.swift */; };
 		DFCCDB6F289C14660058AEA4 /* CallListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDB6E289C14660058AEA4 /* CallListViewModel.swift */; };
 		DFCCDB71289C14740058AEA4 /* CallListNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDB70289C14740058AEA4 /* CallListNavigator.swift */; };
-		DFCCDB73289C16300058AEA4 /* UserUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDB72289C16300058AEA4 /* UserUseCase.swift */; };
-		DFCCDB76289C17990058AEA4 /* UserNetworkUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDB75289C17990058AEA4 /* UserNetworkUseCase.swift */; };
 		DFCCDB82289CA2740058AEA4 /* UserCallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDB80289CA2740058AEA4 /* UserCallCell.swift */; };
 		DFCCDB83289CA2740058AEA4 /* UserCallCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFCCDB81289CA2740058AEA4 /* UserCallCell.xib */; };
 		DFCCDB86289CAE6F0058AEA4 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDB85289CAE6F0058AEA4 /* BaseViewController.swift */; };
+		DFCCDB91289CB1C90058AEA4 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDB8F289CB1C90058AEA4 /* ProductCell.swift */; };
+		DFCCDBA0289CBD1B0058AEA4 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFCCDB9F289CBD1B0058AEA4 /* ProductCell.xib */; };
+		DFCCDBA4289CBD220058AEA4 /* BuyListNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDBA1289CBD220058AEA4 /* BuyListNavigator.swift */; };
+		DFCCDBA5289CBD220058AEA4 /* BuyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDBA2289CBD220058AEA4 /* BuyListViewController.swift */; };
+		DFCCDBA6289CBD220058AEA4 /* BuyListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDBA3289CBD220058AEA4 /* BuyListViewModel.swift */; };
+		DFCCDBA8289CBD3B0058AEA4 /* UserUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDBA7289CBD3B0058AEA4 /* UserUseCase.swift */; };
+		DFCCDBB2289CBD550058AEA4 /* UserNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDBAA289CBD550058AEA4 /* UserNetwork.swift */; };
+		DFCCDBB3289CBD550058AEA4 /* ProductNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDBAB289CBD550058AEA4 /* ProductNetwork.swift */; };
+		DFCCDBB4289CBD550058AEA4 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDBAD289CBD550058AEA4 /* Network.swift */; };
+		DFCCDBB5289CBD550058AEA4 /* NetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDBAE289CBD550058AEA4 /* NetworkProvider.swift */; };
+		DFCCDBB6289CBD550058AEA4 /* UserNetworkUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDBB0289CBD550058AEA4 /* UserNetworkUseCase.swift */; };
+		DFCCDBB7289CBD550058AEA4 /* ProductNetworkUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDBB1289CBD550058AEA4 /* ProductNetworkUseCase.swift */; };
+		DFCCDBB9289CBD6C0058AEA4 /* DomainConvertibleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDBB8289CBD6C0058AEA4 /* DomainConvertibleType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,17 +92,24 @@
 		DFCCDB5C289C01930058AEA4 /* CallListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallListViewController.swift; sourceTree = "<group>"; };
 		DFCCDB5E289C02F20058AEA4 /* HomeNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigator.swift; sourceTree = "<group>"; };
 		DFCCDB60289C03C10058AEA4 /* ProductUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductUseCase.swift; sourceTree = "<group>"; };
-		DFCCDB65289C0BE20058AEA4 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Network.swift; path = ../../../../../../Network.swift; sourceTree = "<group>"; };
-		DFCCDB67289C12540058AEA4 /* NetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetworkProvider.swift; path = ../../../../../../NetworkProvider.swift; sourceTree = "<group>"; };
-		DFCCDB6A289C12B20058AEA4 /* ProductNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProductNetwork.swift; path = ../../../../../../ProductNetwork.swift; sourceTree = "<group>"; };
-		DFCCDB6C289C13F40058AEA4 /* UserNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserNetwork.swift; path = ../../../../../../UserNetwork.swift; sourceTree = "<group>"; };
-		DFCCDB6E289C14660058AEA4 /* CallListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CallListViewModel.swift; path = ../../../../../../../CallListViewModel.swift; sourceTree = "<group>"; };
-		DFCCDB70289C14740058AEA4 /* CallListNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CallListNavigator.swift; path = ../../../../../../../CallListNavigator.swift; sourceTree = "<group>"; };
-		DFCCDB72289C16300058AEA4 /* UserUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserUseCase.swift; path = ../../../../../../UserUseCase.swift; sourceTree = "<group>"; };
-		DFCCDB75289C17990058AEA4 /* UserNetworkUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserNetworkUseCase.swift; path = ../../../../../../UserNetworkUseCase.swift; sourceTree = "<group>"; };
+		DFCCDB6E289C14660058AEA4 /* CallListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallListViewModel.swift; sourceTree = "<group>"; };
+		DFCCDB70289C14740058AEA4 /* CallListNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallListNavigator.swift; sourceTree = "<group>"; };
 		DFCCDB80289CA2740058AEA4 /* UserCallCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCallCell.swift; sourceTree = "<group>"; };
 		DFCCDB81289CA2740058AEA4 /* UserCallCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserCallCell.xib; sourceTree = "<group>"; };
-		DFCCDB85289CAE6F0058AEA4 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = ../../../../../../../BaseViewController.swift; sourceTree = "<group>"; };
+		DFCCDB85289CAE6F0058AEA4 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		DFCCDB8F289CB1C90058AEA4 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		DFCCDB9F289CBD1B0058AEA4 /* ProductCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
+		DFCCDBA1289CBD220058AEA4 /* BuyListNavigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyListNavigator.swift; sourceTree = "<group>"; };
+		DFCCDBA2289CBD220058AEA4 /* BuyListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyListViewController.swift; sourceTree = "<group>"; };
+		DFCCDBA3289CBD220058AEA4 /* BuyListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyListViewModel.swift; sourceTree = "<group>"; };
+		DFCCDBA7289CBD3B0058AEA4 /* UserUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserUseCase.swift; sourceTree = "<group>"; };
+		DFCCDBAA289CBD550058AEA4 /* UserNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserNetwork.swift; sourceTree = "<group>"; };
+		DFCCDBAB289CBD550058AEA4 /* ProductNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductNetwork.swift; sourceTree = "<group>"; };
+		DFCCDBAD289CBD550058AEA4 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		DFCCDBAE289CBD550058AEA4 /* NetworkProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkProvider.swift; sourceTree = "<group>"; };
+		DFCCDBB0289CBD550058AEA4 /* UserNetworkUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserNetworkUseCase.swift; sourceTree = "<group>"; };
+		DFCCDBB1289CBD550058AEA4 /* ProductNetworkUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductNetworkUseCase.swift; sourceTree = "<group>"; };
+		DFCCDBB8289CBD6C0058AEA4 /* DomainConvertibleType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DomainConvertibleType.swift; sourceTree = "<group>"; };
 		FE401AE4FE590CD21A034541 /* Pods_Todo_InterviewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Todo_InterviewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -234,8 +248,9 @@
 			isa = PBXGroup;
 			children = (
 				DFCCDB84289CAE500058AEA4 /* Base */,
-				DFCCDB5B289C017D0058AEA4 /* Call List */,
 				DFCCDB4E289BFC010058AEA4 /* Home */,
+				DFCCDB5B289C017D0058AEA4 /* Call List */,
+				DFCCDB87289CB1630058AEA4 /* Buy List */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -276,6 +291,10 @@
 		DFCCDB4C289BFB830058AEA4 /* CoreDataPlatform */ = {
 			isa = PBXGroup;
 			children = (
+				DFCCDB9A289CB8C90058AEA4 /* Repository */,
+				DFCCDB99289CB8BB0058AEA4 /* Entities */,
+				DFCCDB98289CB8B20058AEA4 /* UseCase */,
+				DFCCDB95289CB8000058AEA4 /* Convertion */,
 				DFCCDB14289BF4100058AEA4 /* Todo_Interview.xcdatamodeld */,
 			);
 			path = CoreDataPlatform;
@@ -284,9 +303,9 @@
 		DFCCDB4D289BFB910058AEA4 /* NetworkPlatform */ = {
 			isa = PBXGroup;
 			children = (
-				DFCCDB74289C16E90058AEA4 /* UseCase */,
-				DFCCDB64289C0BD20058AEA4 /* Network */,
-				DFCCDB69289C12A50058AEA4 /* API */,
+				DFCCDBA9289CBD550058AEA4 /* API */,
+				DFCCDBAC289CBD550058AEA4 /* Network */,
+				DFCCDBAF289CBD550058AEA4 /* UseCase */,
 			);
 			path = NetworkPlatform;
 			sourceTree = "<group>";
@@ -313,8 +332,8 @@
 		DFCCDB54289BFD100058AEA4 /* UseCases */ = {
 			isa = PBXGroup;
 			children = (
+				DFCCDBA7289CBD3B0058AEA4 /* UserUseCase.swift */,
 				DFCCDB60289C03C10058AEA4 /* ProductUseCase.swift */,
-				DFCCDB72289C16300058AEA4 /* UserUseCase.swift */,
 			);
 			path = UseCases;
 			sourceTree = "<group>";
@@ -328,32 +347,6 @@
 				DFCCDB70289C14740058AEA4 /* CallListNavigator.swift */,
 			);
 			path = "Call List";
-			sourceTree = "<group>";
-		};
-		DFCCDB64289C0BD20058AEA4 /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				DFCCDB65289C0BE20058AEA4 /* Network.swift */,
-				DFCCDB67289C12540058AEA4 /* NetworkProvider.swift */,
-			);
-			path = Network;
-			sourceTree = "<group>";
-		};
-		DFCCDB69289C12A50058AEA4 /* API */ = {
-			isa = PBXGroup;
-			children = (
-				DFCCDB6A289C12B20058AEA4 /* ProductNetwork.swift */,
-				DFCCDB6C289C13F40058AEA4 /* UserNetwork.swift */,
-			);
-			path = API;
-			sourceTree = "<group>";
-		};
-		DFCCDB74289C16E90058AEA4 /* UseCase */ = {
-			isa = PBXGroup;
-			children = (
-				DFCCDB75289C17990058AEA4 /* UserNetworkUseCase.swift */,
-			);
-			path = UseCase;
 			sourceTree = "<group>";
 		};
 		DFCCDB7D289CA06A0058AEA4 /* Cell */ = {
@@ -371,6 +364,82 @@
 				DFCCDB85289CAE6F0058AEA4 /* BaseViewController.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		DFCCDB87289CB1630058AEA4 /* Buy List */ = {
+			isa = PBXGroup;
+			children = (
+				DFCCDBA1289CBD220058AEA4 /* BuyListNavigator.swift */,
+				DFCCDBA2289CBD220058AEA4 /* BuyListViewController.swift */,
+				DFCCDBA3289CBD220058AEA4 /* BuyListViewModel.swift */,
+				DFCCDB8E289CB1B40058AEA4 /* Cell */,
+			);
+			path = "Buy List";
+			sourceTree = "<group>";
+		};
+		DFCCDB8E289CB1B40058AEA4 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DFCCDB9F289CBD1B0058AEA4 /* ProductCell.xib */,
+				DFCCDB8F289CB1C90058AEA4 /* ProductCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		DFCCDB95289CB8000058AEA4 /* Convertion */ = {
+			isa = PBXGroup;
+			children = (
+				DFCCDBB8289CBD6C0058AEA4 /* DomainConvertibleType.swift */,
+			);
+			path = Convertion;
+			sourceTree = "<group>";
+		};
+		DFCCDB98289CB8B20058AEA4 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		DFCCDB99289CB8BB0058AEA4 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		DFCCDB9A289CB8C90058AEA4 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		DFCCDBA9289CBD550058AEA4 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				DFCCDBAA289CBD550058AEA4 /* UserNetwork.swift */,
+				DFCCDBAB289CBD550058AEA4 /* ProductNetwork.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		DFCCDBAC289CBD550058AEA4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DFCCDBAD289CBD550058AEA4 /* Network.swift */,
+				DFCCDBAE289CBD550058AEA4 /* NetworkProvider.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		DFCCDBAF289CBD550058AEA4 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				DFCCDBB0289CBD550058AEA4 /* UserNetworkUseCase.swift */,
+				DFCCDBB1289CBD550058AEA4 /* ProductNetworkUseCase.swift */,
+			);
+			path = UseCase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -483,6 +552,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFCCDB1B289BF4110058AEA4 /* LaunchScreen.storyboard in Resources */,
+				DFCCDBA0289CBD1B0058AEA4 /* ProductCell.xib in Resources */,
 				DFCCDB83289CA2740058AEA4 /* UserCallCell.xib in Resources */,
 				DFCCDB18289BF4100058AEA4 /* Assets.xcassets in Resources */,
 			);
@@ -614,25 +684,31 @@
 			files = (
 				DFCCDB5D289C01930058AEA4 /* CallListViewController.swift in Sources */,
 				DFCCDB45289BF5940058AEA4 /* Reusable.swift in Sources */,
+				DFCCDBB4289CBD550058AEA4 /* Network.swift in Sources */,
 				DFCCDB58289BFD820058AEA4 /* Product.swift in Sources */,
-				DFCCDB76289C17990058AEA4 /* UserNetworkUseCase.swift in Sources */,
 				DFCCDB71289C14740058AEA4 /* CallListNavigator.swift in Sources */,
+				DFCCDBB7289CBD550058AEA4 /* ProductNetworkUseCase.swift in Sources */,
 				DFCCDB86289CAE6F0058AEA4 /* BaseViewController.swift in Sources */,
 				DFCCDB16289BF4100058AEA4 /* Todo_Interview.xcdatamodeld in Sources */,
-				DFCCDB6D289C13F40058AEA4 /* UserNetwork.swift in Sources */,
 				DFCCDB56289BFD5A0058AEA4 /* User.swift in Sources */,
 				DFCCDB52289BFCE00058AEA4 /* HomeViewModel.swift in Sources */,
+				DFCCDBA6289CBD220058AEA4 /* BuyListViewModel.swift in Sources */,
+				DFCCDB91289CB1C90058AEA4 /* ProductCell.swift in Sources */,
+				DFCCDBA5289CBD220058AEA4 /* BuyListViewController.swift in Sources */,
 				DFCCDB0C289BF4100058AEA4 /* AppDelegate.swift in Sources */,
+				DFCCDBA8289CBD3B0058AEA4 /* UserUseCase.swift in Sources */,
+				DFCCDBB5289CBD550058AEA4 /* NetworkProvider.swift in Sources */,
 				DFCCDB82289CA2740058AEA4 /* UserCallCell.swift in Sources */,
 				DFCCDB48289BF5ED0058AEA4 /* UITableView+Reusable.swift in Sources */,
-				DFCCDB6B289C12B20058AEA4 /* ProductNetwork.swift in Sources */,
+				DFCCDBB6289CBD550058AEA4 /* UserNetworkUseCase.swift in Sources */,
 				DFCCDB6F289C14660058AEA4 /* CallListViewModel.swift in Sources */,
+				DFCCDBA4289CBD220058AEA4 /* BuyListNavigator.swift in Sources */,
+				DFCCDBB2289CBD550058AEA4 /* UserNetwork.swift in Sources */,
 				DFCCDB61289C03C10058AEA4 /* ProductUseCase.swift in Sources */,
+				DFCCDBB9289CBD6C0058AEA4 /* DomainConvertibleType.swift in Sources */,
+				DFCCDBB3289CBD550058AEA4 /* ProductNetwork.swift in Sources */,
 				DFCCDB5F289C02F20058AEA4 /* HomeNavigator.swift in Sources */,
-				DFCCDB73289C16300058AEA4 /* UserUseCase.swift in Sources */,
-				DFCCDB66289C0BE20058AEA4 /* Network.swift in Sources */,
 				DFCCDB50289BFC0C0058AEA4 /* HomeViewController.swift in Sources */,
-				DFCCDB68289C12540058AEA4 /* NetworkProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
