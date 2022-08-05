@@ -91,6 +91,6 @@ class HomeViewController: UIViewController {
     }
     
     @objc private func toSellTapped() {
-        
+        viewModel.navigator.toSell()
     }
 }

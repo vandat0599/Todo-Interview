@@ -44,6 +44,15 @@
 		DFCCDBB6289CBD550058AEA4 /* UserNetworkUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDBB0289CBD550058AEA4 /* UserNetworkUseCase.swift */; };
 		DFCCDBB7289CBD550058AEA4 /* ProductNetworkUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDBB1289CBD550058AEA4 /* ProductNetworkUseCase.swift */; };
 		DFCCDBB9289CBD6C0058AEA4 /* DomainConvertibleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDBB8289CBD6C0058AEA4 /* DomainConvertibleType.swift */; };
+		DFCCDBC0289CBEA50058AEA4 /* CProduct+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDBBE289CBEA50058AEA4 /* CProduct+CoreDataClass.swift */; };
+		DFCCDBC1289CBEA50058AEA4 /* CProduct+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDBBF289CBEA50058AEA4 /* CProduct+CoreDataProperties.swift */; };
+		DFCCDBC3289CBFAC0058AEA4 /* CProduct+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDBC2289CBFAC0058AEA4 /* CProduct+Ext.swift */; };
+		DFCCDBC5289CC8610058AEA4 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDBC4289CC8610058AEA4 /* CoreDataStack.swift */; };
+		DFCCDBC9289CC96A0058AEA4 /* CoreDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDBC8289CC96A0058AEA4 /* CoreDataRepository.swift */; };
+		DFCCDBCD289CCE8F0058AEA4 /* ProductCDUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDBCC289CCE8F0058AEA4 /* ProductCDUseCase.swift */; };
+		DFCCDBD0289CD33D0058AEA4 /* SellListNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDBCF289CD33D0058AEA4 /* SellListNavigator.swift */; };
+		DFCCDBD2289CD3480058AEA4 /* SellListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDBD1289CD3480058AEA4 /* SellListViewController.swift */; };
+		DFCCDBD4289CD3520058AEA4 /* SellListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDBD3289CD3520058AEA4 /* SellListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +119,15 @@
 		DFCCDBB0289CBD550058AEA4 /* UserNetworkUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserNetworkUseCase.swift; sourceTree = "<group>"; };
 		DFCCDBB1289CBD550058AEA4 /* ProductNetworkUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductNetworkUseCase.swift; sourceTree = "<group>"; };
 		DFCCDBB8289CBD6C0058AEA4 /* DomainConvertibleType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DomainConvertibleType.swift; sourceTree = "<group>"; };
+		DFCCDBBE289CBEA50058AEA4 /* CProduct+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CProduct+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		DFCCDBBF289CBEA50058AEA4 /* CProduct+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CProduct+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		DFCCDBC2289CBFAC0058AEA4 /* CProduct+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CProduct+Ext.swift"; sourceTree = "<group>"; };
+		DFCCDBC4289CC8610058AEA4 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		DFCCDBC8289CC96A0058AEA4 /* CoreDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRepository.swift; sourceTree = "<group>"; };
+		DFCCDBCC289CCE8F0058AEA4 /* ProductCDUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCDUseCase.swift; sourceTree = "<group>"; };
+		DFCCDBCF289CD33D0058AEA4 /* SellListNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellListNavigator.swift; sourceTree = "<group>"; };
+		DFCCDBD1289CD3480058AEA4 /* SellListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellListViewController.swift; sourceTree = "<group>"; };
+		DFCCDBD3289CD3520058AEA4 /* SellListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellListViewModel.swift; sourceTree = "<group>"; };
 		FE401AE4FE590CD21A034541 /* Pods_Todo_InterviewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Todo_InterviewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -251,6 +269,7 @@
 				DFCCDB4E289BFC010058AEA4 /* Home */,
 				DFCCDB5B289C017D0058AEA4 /* Call List */,
 				DFCCDB87289CB1630058AEA4 /* Buy List */,
+				DFCCDBCE289CD31C0058AEA4 /* Sell List */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -291,7 +310,8 @@
 		DFCCDB4C289BFB830058AEA4 /* CoreDataPlatform */ = {
 			isa = PBXGroup;
 			children = (
-				DFCCDB9A289CB8C90058AEA4 /* Repository */,
+				DFCCDBC7289CC9550058AEA4 /* Repository */,
+				DFCCDBC6289CC89F0058AEA4 /* CoreDataStack */,
 				DFCCDB99289CB8BB0058AEA4 /* Entities */,
 				DFCCDB98289CB8B20058AEA4 /* UseCase */,
 				DFCCDB95289CB8000058AEA4 /* Convertion */,
@@ -397,6 +417,7 @@
 		DFCCDB98289CB8B20058AEA4 /* UseCase */ = {
 			isa = PBXGroup;
 			children = (
+				DFCCDBCC289CCE8F0058AEA4 /* ProductCDUseCase.swift */,
 			);
 			path = UseCase;
 			sourceTree = "<group>";
@@ -404,15 +425,11 @@
 		DFCCDB99289CB8BB0058AEA4 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
+				DFCCDBBE289CBEA50058AEA4 /* CProduct+CoreDataClass.swift */,
+				DFCCDBBF289CBEA50058AEA4 /* CProduct+CoreDataProperties.swift */,
+				DFCCDBC2289CBFAC0058AEA4 /* CProduct+Ext.swift */,
 			);
 			path = Entities;
-			sourceTree = "<group>";
-		};
-		DFCCDB9A289CB8C90058AEA4 /* Repository */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Repository;
 			sourceTree = "<group>";
 		};
 		DFCCDBA9289CBD550058AEA4 /* API */ = {
@@ -440,6 +457,32 @@
 				DFCCDBB1289CBD550058AEA4 /* ProductNetworkUseCase.swift */,
 			);
 			path = UseCase;
+			sourceTree = "<group>";
+		};
+		DFCCDBC6289CC89F0058AEA4 /* CoreDataStack */ = {
+			isa = PBXGroup;
+			children = (
+				DFCCDBC4289CC8610058AEA4 /* CoreDataStack.swift */,
+			);
+			path = CoreDataStack;
+			sourceTree = "<group>";
+		};
+		DFCCDBC7289CC9550058AEA4 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				DFCCDBC8289CC96A0058AEA4 /* CoreDataRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		DFCCDBCE289CD31C0058AEA4 /* Sell List */ = {
+			isa = PBXGroup;
+			children = (
+				DFCCDBCF289CD33D0058AEA4 /* SellListNavigator.swift */,
+				DFCCDBD1289CD3480058AEA4 /* SellListViewController.swift */,
+				DFCCDBD3289CD3520058AEA4 /* SellListViewModel.swift */,
+			);
+			path = "Sell List";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -683,6 +726,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFCCDB5D289C01930058AEA4 /* CallListViewController.swift in Sources */,
+				DFCCDBC1289CBEA50058AEA4 /* CProduct+CoreDataProperties.swift in Sources */,
 				DFCCDB45289BF5940058AEA4 /* Reusable.swift in Sources */,
 				DFCCDBB4289CBD550058AEA4 /* Network.swift in Sources */,
 				DFCCDB58289BFD820058AEA4 /* Product.swift in Sources */,
@@ -693,14 +737,20 @@
 				DFCCDB56289BFD5A0058AEA4 /* User.swift in Sources */,
 				DFCCDB52289BFCE00058AEA4 /* HomeViewModel.swift in Sources */,
 				DFCCDBA6289CBD220058AEA4 /* BuyListViewModel.swift in Sources */,
+				DFCCDBC5289CC8610058AEA4 /* CoreDataStack.swift in Sources */,
 				DFCCDB91289CB1C90058AEA4 /* ProductCell.swift in Sources */,
 				DFCCDBA5289CBD220058AEA4 /* BuyListViewController.swift in Sources */,
+				DFCCDBCD289CCE8F0058AEA4 /* ProductCDUseCase.swift in Sources */,
+				DFCCDBC3289CBFAC0058AEA4 /* CProduct+Ext.swift in Sources */,
 				DFCCDB0C289BF4100058AEA4 /* AppDelegate.swift in Sources */,
+				DFCCDBD4289CD3520058AEA4 /* SellListViewModel.swift in Sources */,
 				DFCCDBA8289CBD3B0058AEA4 /* UserUseCase.swift in Sources */,
 				DFCCDBB5289CBD550058AEA4 /* NetworkProvider.swift in Sources */,
 				DFCCDB82289CA2740058AEA4 /* UserCallCell.swift in Sources */,
 				DFCCDB48289BF5ED0058AEA4 /* UITableView+Reusable.swift in Sources */,
 				DFCCDBB6289CBD550058AEA4 /* UserNetworkUseCase.swift in Sources */,
+				DFCCDBC9289CC96A0058AEA4 /* CoreDataRepository.swift in Sources */,
+				DFCCDBC0289CBEA50058AEA4 /* CProduct+CoreDataClass.swift in Sources */,
 				DFCCDB6F289C14660058AEA4 /* CallListViewModel.swift in Sources */,
 				DFCCDBA4289CBD220058AEA4 /* BuyListNavigator.swift in Sources */,
 				DFCCDBB2289CBD550058AEA4 /* UserNetwork.swift in Sources */,
@@ -709,6 +759,8 @@
 				DFCCDBB3289CBD550058AEA4 /* ProductNetwork.swift in Sources */,
 				DFCCDB5F289C02F20058AEA4 /* HomeNavigator.swift in Sources */,
 				DFCCDB50289BFC0C0058AEA4 /* HomeViewController.swift in Sources */,
+				DFCCDBD0289CD33D0058AEA4 /* SellListNavigator.swift in Sources */,
+				DFCCDBD2289CD3480058AEA4 /* SellListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

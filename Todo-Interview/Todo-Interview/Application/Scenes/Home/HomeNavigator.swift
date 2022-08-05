@@ -42,7 +42,13 @@ class HomeNavigator: HomeNavigatorType {
     }
     
     func toSell() {
+        let viewModel = SellListViewModel(
+            productUseCase: ProductCDUseCase(),
+            navigator: SellListNavigator(navigationController: navigationController)
+        )
         
+        let viewController = SellListViewController(viewModel: viewModel)
+        navigationController.pushViewController(viewController, animated: true)
     }
     
     
