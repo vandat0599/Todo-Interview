@@ -5,10 +5,39 @@
 //  Created by Dat Van on 04/08/2022.
 //
 
-import Foundation
+import UIKit
 
-protocol HomeNavigator {
+protocol HomeNavigatorType {
     func toCall()
     func toBuy()
     func toSell()
+}
+
+class HomeNavigator: HomeNavigatorType {
+    
+    private let navigationController: UINavigationController
+
+    init(navigationController: UINavigationController) {
+        self.navigationController = navigationController
+    }
+    
+    func toCall() {
+        let viewModel = CallListViewModel(
+            userUseCase: UserNetworkUseCase(),
+            navigator: CallListNavigator(navigationController: navigationController)
+        )
+        
+        let viewController = CallListViewController(viewModel: viewModel)
+        navigationController.pushViewController(viewController, animated: true)
+    }
+    
+    func toBuy() {
+        
+    }
+    
+    func toSell() {
+        
+    }
+    
+    
 }

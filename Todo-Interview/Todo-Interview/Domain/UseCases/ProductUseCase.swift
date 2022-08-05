@@ -8,7 +8,7 @@
 import Foundation
 
 protocol ProductUseCase {
-    func products() -> [Product]
-    func save(product: Product) -> Void
-    func delete(product: Product) -> Void
+    func products(completion: @escaping (Result<[Product], Error>) -> Void)
+    func save(product: Product, completion: @escaping (Result<Product, Error>) -> Void)
+    func delete(product: Product, completion: @escaping (Result<Product, Error>) -> Void)
 }

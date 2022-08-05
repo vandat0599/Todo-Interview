@@ -14,6 +14,7 @@ class HomeViewController: UIViewController {
         view.setTitle("Call List", for: .normal)
         view.backgroundColor = .lightGray
         view.setTitleColor(.black, for: .normal)
+        view.addTarget(self, action: #selector(toCallTapped), for: .touchUpInside)
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
@@ -35,6 +36,21 @@ class HomeViewController: UIViewController {
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
+    
+    private let viewModel: HomeViewModelType
+    
+    // MARK: - init
+    
+    init(viewModel: HomeViewModelType) {
+        self.viewModel = viewModel
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    // MARK: - Lift cycle
     
     override func loadView() {
         super.loadView()
@@ -62,5 +78,9 @@ class HomeViewController: UIViewController {
             sellListButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             sellListButton.topAnchor.constraint(equalTo: buyListButton.bottomAnchor, constant: 30),
         ])
+    }
+    
+    @objc private func toCallTapped() {
+        viewModel.navigator.toCall()
     }
 }

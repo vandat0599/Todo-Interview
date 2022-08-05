@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FE696264259A54AFF241FB5 /* Pods_Todo_InterviewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE401AE4FE590CD21A034541 /* Pods_Todo_InterviewTests.framework */; };
+		3B8482A00CFE1602A4E3D478 /* Pods_Todo_Interview_Todo_InterviewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB47D396312E7C21924CF55 /* Pods_Todo_Interview_Todo_InterviewUITests.framework */; };
+		D0756973E3A1355DF863BD62 /* Pods_Todo_Interview.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF8B0EFFA5E85498F30EE4F /* Pods_Todo_Interview.framework */; };
 		DFCCDB0C289BF4100058AEA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDB0B289BF4100058AEA4 /* AppDelegate.swift */; };
 		DFCCDB16289BF4100058AEA4 /* Todo_Interview.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDB14289BF4100058AEA4 /* Todo_Interview.xcdatamodeld */; };
 		DFCCDB18289BF4100058AEA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFCCDB17289BF4100058AEA4 /* Assets.xcassets */; };
@@ -14,7 +17,6 @@
 		DFCCDB26289BF4110058AEA4 /* Todo_InterviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDB25289BF4110058AEA4 /* Todo_InterviewTests.swift */; };
 		DFCCDB30289BF4110058AEA4 /* Todo_InterviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDB2F289BF4110058AEA4 /* Todo_InterviewUITests.swift */; };
 		DFCCDB32289BF4110058AEA4 /* Todo_InterviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDB31289BF4110058AEA4 /* Todo_InterviewUITestsLaunchTests.swift */; };
-		DFCCDB43289BF4C10058AEA4 /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDB42289BF4C10058AEA4 /* ViewModelType.swift */; };
 		DFCCDB45289BF5940058AEA4 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDB44289BF5940058AEA4 /* Reusable.swift */; };
 		DFCCDB48289BF5ED0058AEA4 /* UITableView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDB47289BF5ED0058AEA4 /* UITableView+Reusable.swift */; };
 		DFCCDB50289BFC0C0058AEA4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDB4F289BFC0C0058AEA4 /* HomeViewController.swift */; };
@@ -24,6 +26,17 @@
 		DFCCDB5D289C01930058AEA4 /* CallListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDB5C289C01930058AEA4 /* CallListViewController.swift */; };
 		DFCCDB5F289C02F20058AEA4 /* HomeNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDB5E289C02F20058AEA4 /* HomeNavigator.swift */; };
 		DFCCDB61289C03C10058AEA4 /* ProductUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDB60289C03C10058AEA4 /* ProductUseCase.swift */; };
+		DFCCDB66289C0BE20058AEA4 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDB65289C0BE20058AEA4 /* Network.swift */; };
+		DFCCDB68289C12540058AEA4 /* NetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDB67289C12540058AEA4 /* NetworkProvider.swift */; };
+		DFCCDB6B289C12B20058AEA4 /* ProductNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDB6A289C12B20058AEA4 /* ProductNetwork.swift */; };
+		DFCCDB6D289C13F40058AEA4 /* UserNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDB6C289C13F40058AEA4 /* UserNetwork.swift */; };
+		DFCCDB6F289C14660058AEA4 /* CallListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDB6E289C14660058AEA4 /* CallListViewModel.swift */; };
+		DFCCDB71289C14740058AEA4 /* CallListNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDB70289C14740058AEA4 /* CallListNavigator.swift */; };
+		DFCCDB73289C16300058AEA4 /* UserUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDB72289C16300058AEA4 /* UserUseCase.swift */; };
+		DFCCDB76289C17990058AEA4 /* UserNetworkUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDB75289C17990058AEA4 /* UserNetworkUseCase.swift */; };
+		DFCCDB82289CA2740058AEA4 /* UserCallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDB80289CA2740058AEA4 /* UserCallCell.swift */; };
+		DFCCDB83289CA2740058AEA4 /* UserCallCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFCCDB81289CA2740058AEA4 /* UserCallCell.xib */; };
+		DFCCDB86289CAE6F0058AEA4 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCDB85289CAE6F0058AEA4 /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +57,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FAA16CE253E703CA79AA934 /* Pods-Todo-Interview-Todo-InterviewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todo-Interview-Todo-InterviewUITests.debug.xcconfig"; path = "Target Support Files/Pods-Todo-Interview-Todo-InterviewUITests/Pods-Todo-Interview-Todo-InterviewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1EF8B0EFFA5E85498F30EE4F /* Pods_Todo_Interview.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Todo_Interview.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5219663E75E0C950CF49B47B /* Pods-Todo-Interview.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todo-Interview.release.xcconfig"; path = "Target Support Files/Pods-Todo-Interview/Pods-Todo-Interview.release.xcconfig"; sourceTree = "<group>"; };
+		642B8ED0B55A3FA1DCB80DE7 /* Pods-Todo-InterviewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todo-InterviewTests.debug.xcconfig"; path = "Target Support Files/Pods-Todo-InterviewTests/Pods-Todo-InterviewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6EF521C5DC6D032676F13186 /* Pods-Todo-InterviewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todo-InterviewTests.release.xcconfig"; path = "Target Support Files/Pods-Todo-InterviewTests/Pods-Todo-InterviewTests.release.xcconfig"; sourceTree = "<group>"; };
+		7CB47D396312E7C21924CF55 /* Pods_Todo_Interview_Todo_InterviewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Todo_Interview_Todo_InterviewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8422D466EFC11202FD12E411 /* Pods-Todo-Interview-Todo-InterviewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todo-Interview-Todo-InterviewUITests.release.xcconfig"; path = "Target Support Files/Pods-Todo-Interview-Todo-InterviewUITests/Pods-Todo-Interview-Todo-InterviewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9DB96FA8BDB1252738D8CC92 /* Pods-Todo-Interview.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todo-Interview.debug.xcconfig"; path = "Target Support Files/Pods-Todo-Interview/Pods-Todo-Interview.debug.xcconfig"; sourceTree = "<group>"; };
 		DFCCDB08289BF4100058AEA4 /* Todo-Interview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Todo-Interview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFCCDB0B289BF4100058AEA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFCCDB15289BF4100058AEA4 /* Todo_Interview.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Todo_Interview.xcdatamodel; sourceTree = "<group>"; };
@@ -55,7 +76,6 @@
 		DFCCDB2B289BF4110058AEA4 /* Todo-InterviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Todo-InterviewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFCCDB2F289BF4110058AEA4 /* Todo_InterviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo_InterviewUITests.swift; sourceTree = "<group>"; };
 		DFCCDB31289BF4110058AEA4 /* Todo_InterviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo_InterviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		DFCCDB42289BF4C10058AEA4 /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
 		DFCCDB44289BF5940058AEA4 /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
 		DFCCDB47289BF5ED0058AEA4 /* UITableView+Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Reusable.swift"; sourceTree = "<group>"; };
 		DFCCDB4F289BFC0C0058AEA4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +85,18 @@
 		DFCCDB5C289C01930058AEA4 /* CallListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallListViewController.swift; sourceTree = "<group>"; };
 		DFCCDB5E289C02F20058AEA4 /* HomeNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigator.swift; sourceTree = "<group>"; };
 		DFCCDB60289C03C10058AEA4 /* ProductUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductUseCase.swift; sourceTree = "<group>"; };
+		DFCCDB65289C0BE20058AEA4 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Network.swift; path = ../../../../../../Network.swift; sourceTree = "<group>"; };
+		DFCCDB67289C12540058AEA4 /* NetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetworkProvider.swift; path = ../../../../../../NetworkProvider.swift; sourceTree = "<group>"; };
+		DFCCDB6A289C12B20058AEA4 /* ProductNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProductNetwork.swift; path = ../../../../../../ProductNetwork.swift; sourceTree = "<group>"; };
+		DFCCDB6C289C13F40058AEA4 /* UserNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserNetwork.swift; path = ../../../../../../UserNetwork.swift; sourceTree = "<group>"; };
+		DFCCDB6E289C14660058AEA4 /* CallListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CallListViewModel.swift; path = ../../../../../../../CallListViewModel.swift; sourceTree = "<group>"; };
+		DFCCDB70289C14740058AEA4 /* CallListNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CallListNavigator.swift; path = ../../../../../../../CallListNavigator.swift; sourceTree = "<group>"; };
+		DFCCDB72289C16300058AEA4 /* UserUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserUseCase.swift; path = ../../../../../../UserUseCase.swift; sourceTree = "<group>"; };
+		DFCCDB75289C17990058AEA4 /* UserNetworkUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserNetworkUseCase.swift; path = ../../../../../../UserNetworkUseCase.swift; sourceTree = "<group>"; };
+		DFCCDB80289CA2740058AEA4 /* UserCallCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCallCell.swift; sourceTree = "<group>"; };
+		DFCCDB81289CA2740058AEA4 /* UserCallCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserCallCell.xib; sourceTree = "<group>"; };
+		DFCCDB85289CAE6F0058AEA4 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = ../../../../../../../BaseViewController.swift; sourceTree = "<group>"; };
+		FE401AE4FE590CD21A034541 /* Pods_Todo_InterviewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Todo_InterviewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0756973E3A1355DF863BD62 /* Pods_Todo_Interview.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FE696264259A54AFF241FB5 /* Pods_Todo_InterviewTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,12 +120,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B8482A00CFE1602A4E3D478 /* Pods_Todo_Interview_Todo_InterviewUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CC51825179EED199A54B5F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1EF8B0EFFA5E85498F30EE4F /* Pods_Todo_Interview.framework */,
+				7CB47D396312E7C21924CF55 /* Pods_Todo_Interview_Todo_InterviewUITests.framework */,
+				FE401AE4FE590CD21A034541 /* Pods_Todo_InterviewTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77AF3A85677C72012CF74E15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DB96FA8BDB1252738D8CC92 /* Pods-Todo-Interview.debug.xcconfig */,
+				5219663E75E0C950CF49B47B /* Pods-Todo-Interview.release.xcconfig */,
+				0FAA16CE253E703CA79AA934 /* Pods-Todo-Interview-Todo-InterviewUITests.debug.xcconfig */,
+				8422D466EFC11202FD12E411 /* Pods-Todo-Interview-Todo-InterviewUITests.release.xcconfig */,
+				642B8ED0B55A3FA1DCB80DE7 /* Pods-Todo-InterviewTests.debug.xcconfig */,
+				6EF521C5DC6D032676F13186 /* Pods-Todo-InterviewTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DFCCDAFF289BF40F0058AEA4 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +157,8 @@
 				DFCCDB24289BF4110058AEA4 /* Todo-InterviewTests */,
 				DFCCDB2E289BF4110058AEA4 /* Todo-InterviewUITests */,
 				DFCCDB09289BF4100058AEA4 /* Products */,
+				77AF3A85677C72012CF74E15 /* Pods */,
+				1CC51825179EED199A54B5F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,7 +179,6 @@
 				DFCCDB4B289BFB070058AEA4 /* Domain */,
 				DFCCDB4D289BFB910058AEA4 /* NetworkPlatform */,
 				DFCCDB4C289BFB830058AEA4 /* CoreDataPlatform */,
-				DFCCDB14289BF4100058AEA4 /* Todo_Interview.xcdatamodeld */,
 			);
 			path = "Todo-Interview";
 			sourceTree = "<group>";
@@ -159,7 +218,6 @@
 		DFCCDB3F289BF47C0058AEA4 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				DFCCDB42289BF4C10058AEA4 /* ViewModelType.swift */,
 				DFCCDB44289BF5940058AEA4 /* Reusable.swift */,
 			);
 			path = Common;
@@ -175,6 +233,7 @@
 		DFCCDB41289BF48A0058AEA4 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				DFCCDB84289CAE500058AEA4 /* Base */,
 				DFCCDB5B289C017D0058AEA4 /* Call List */,
 				DFCCDB4E289BFC010058AEA4 /* Home */,
 			);
@@ -217,6 +276,7 @@
 		DFCCDB4C289BFB830058AEA4 /* CoreDataPlatform */ = {
 			isa = PBXGroup;
 			children = (
+				DFCCDB14289BF4100058AEA4 /* Todo_Interview.xcdatamodeld */,
 			);
 			path = CoreDataPlatform;
 			sourceTree = "<group>";
@@ -224,6 +284,9 @@
 		DFCCDB4D289BFB910058AEA4 /* NetworkPlatform */ = {
 			isa = PBXGroup;
 			children = (
+				DFCCDB74289C16E90058AEA4 /* UseCase */,
+				DFCCDB64289C0BD20058AEA4 /* Network */,
+				DFCCDB69289C12A50058AEA4 /* API */,
 			);
 			path = NetworkPlatform;
 			sourceTree = "<group>";
@@ -251,6 +314,7 @@
 			isa = PBXGroup;
 			children = (
 				DFCCDB60289C03C10058AEA4 /* ProductUseCase.swift */,
+				DFCCDB72289C16300058AEA4 /* UserUseCase.swift */,
 			);
 			path = UseCases;
 			sourceTree = "<group>";
@@ -258,9 +322,55 @@
 		DFCCDB5B289C017D0058AEA4 /* Call List */ = {
 			isa = PBXGroup;
 			children = (
+				DFCCDB7D289CA06A0058AEA4 /* Cell */,
 				DFCCDB5C289C01930058AEA4 /* CallListViewController.swift */,
+				DFCCDB6E289C14660058AEA4 /* CallListViewModel.swift */,
+				DFCCDB70289C14740058AEA4 /* CallListNavigator.swift */,
 			);
 			path = "Call List";
+			sourceTree = "<group>";
+		};
+		DFCCDB64289C0BD20058AEA4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DFCCDB65289C0BE20058AEA4 /* Network.swift */,
+				DFCCDB67289C12540058AEA4 /* NetworkProvider.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		DFCCDB69289C12A50058AEA4 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				DFCCDB6A289C12B20058AEA4 /* ProductNetwork.swift */,
+				DFCCDB6C289C13F40058AEA4 /* UserNetwork.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		DFCCDB74289C16E90058AEA4 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				DFCCDB75289C17990058AEA4 /* UserNetworkUseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		DFCCDB7D289CA06A0058AEA4 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DFCCDB80289CA2740058AEA4 /* UserCallCell.swift */,
+				DFCCDB81289CA2740058AEA4 /* UserCallCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		DFCCDB84289CAE500058AEA4 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DFCCDB85289CAE6F0058AEA4 /* BaseViewController.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +380,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DFCCDB35289BF4110058AEA4 /* Build configuration list for PBXNativeTarget "Todo-Interview" */;
 			buildPhases = (
+				E79E805B2372C9518DECC616 /* [CP] Check Pods Manifest.lock */,
 				DFCCDB04289BF4100058AEA4 /* Sources */,
 				DFCCDB05289BF4100058AEA4 /* Frameworks */,
 				DFCCDB06289BF4100058AEA4 /* Resources */,
+				D3AFD9987F108F0FC6BF2198 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -287,6 +399,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DFCCDB38289BF4110058AEA4 /* Build configuration list for PBXNativeTarget "Todo-InterviewTests" */;
 			buildPhases = (
+				FE862B7E101675D0786524CF /* [CP] Check Pods Manifest.lock */,
 				DFCCDB1D289BF4110058AEA4 /* Sources */,
 				DFCCDB1E289BF4110058AEA4 /* Frameworks */,
 				DFCCDB1F289BF4110058AEA4 /* Resources */,
@@ -305,9 +418,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DFCCDB3B289BF4110058AEA4 /* Build configuration list for PBXNativeTarget "Todo-InterviewUITests" */;
 			buildPhases = (
+				1A50EE0DE89F0449FC43CC2E /* [CP] Check Pods Manifest.lock */,
 				DFCCDB27289BF4110058AEA4 /* Sources */,
 				DFCCDB28289BF4110058AEA4 /* Frameworks */,
 				DFCCDB29289BF4110058AEA4 /* Resources */,
+				2220CFC49DC6E823EA21E4F8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -368,6 +483,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFCCDB1B289BF4110058AEA4 /* LaunchScreen.storyboard in Resources */,
+				DFCCDB83289CA2740058AEA4 /* UserCallCell.xib in Resources */,
 				DFCCDB18289BF4100058AEA4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,6 +504,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A50EE0DE89F0449FC43CC2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Todo-Interview-Todo-InterviewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2220CFC49DC6E823EA21E4F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Todo-Interview-Todo-InterviewUITests/Pods-Todo-Interview-Todo-InterviewUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Todo-Interview-Todo-InterviewUITests/Pods-Todo-Interview-Todo-InterviewUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Todo-Interview-Todo-InterviewUITests/Pods-Todo-Interview-Todo-InterviewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3AFD9987F108F0FC6BF2198 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Todo-Interview/Pods-Todo-Interview-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Todo-Interview/Pods-Todo-Interview-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Todo-Interview/Pods-Todo-Interview-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E79E805B2372C9518DECC616 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Todo-Interview-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE862B7E101675D0786524CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Todo-InterviewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DFCCDB04289BF4100058AEA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -396,15 +615,24 @@
 				DFCCDB5D289C01930058AEA4 /* CallListViewController.swift in Sources */,
 				DFCCDB45289BF5940058AEA4 /* Reusable.swift in Sources */,
 				DFCCDB58289BFD820058AEA4 /* Product.swift in Sources */,
+				DFCCDB76289C17990058AEA4 /* UserNetworkUseCase.swift in Sources */,
+				DFCCDB71289C14740058AEA4 /* CallListNavigator.swift in Sources */,
+				DFCCDB86289CAE6F0058AEA4 /* BaseViewController.swift in Sources */,
 				DFCCDB16289BF4100058AEA4 /* Todo_Interview.xcdatamodeld in Sources */,
+				DFCCDB6D289C13F40058AEA4 /* UserNetwork.swift in Sources */,
 				DFCCDB56289BFD5A0058AEA4 /* User.swift in Sources */,
 				DFCCDB52289BFCE00058AEA4 /* HomeViewModel.swift in Sources */,
 				DFCCDB0C289BF4100058AEA4 /* AppDelegate.swift in Sources */,
-				DFCCDB43289BF4C10058AEA4 /* ViewModelType.swift in Sources */,
+				DFCCDB82289CA2740058AEA4 /* UserCallCell.swift in Sources */,
 				DFCCDB48289BF5ED0058AEA4 /* UITableView+Reusable.swift in Sources */,
+				DFCCDB6B289C12B20058AEA4 /* ProductNetwork.swift in Sources */,
+				DFCCDB6F289C14660058AEA4 /* CallListViewModel.swift in Sources */,
 				DFCCDB61289C03C10058AEA4 /* ProductUseCase.swift in Sources */,
 				DFCCDB5F289C02F20058AEA4 /* HomeNavigator.swift in Sources */,
+				DFCCDB73289C16300058AEA4 /* UserUseCase.swift in Sources */,
+				DFCCDB66289C0BE20058AEA4 /* Network.swift in Sources */,
 				DFCCDB50289BFC0C0058AEA4 /* HomeViewController.swift in Sources */,
+				DFCCDB68289C12540058AEA4 /* NetworkProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,6 +798,7 @@
 		};
 		DFCCDB36289BF4110058AEA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DB96FA8BDB1252738D8CC92 /* Pods-Todo-Interview.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -598,6 +827,7 @@
 		};
 		DFCCDB37289BF4110058AEA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5219663E75E0C950CF49B47B /* Pods-Todo-Interview.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -626,6 +856,7 @@
 		};
 		DFCCDB39289BF4110058AEA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 642B8ED0B55A3FA1DCB80DE7 /* Pods-Todo-InterviewTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -646,6 +877,7 @@
 		};
 		DFCCDB3A289BF4110058AEA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EF521C5DC6D032676F13186 /* Pods-Todo-InterviewTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -666,6 +898,7 @@
 		};
 		DFCCDB3C289BF4110058AEA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FAA16CE253E703CA79AA934 /* Pods-Todo-Interview-Todo-InterviewUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -684,6 +917,7 @@
 		};
 		DFCCDB3D289BF4110058AEA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8422D466EFC11202FD12E411 /* Pods-Todo-Interview-Todo-InterviewUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

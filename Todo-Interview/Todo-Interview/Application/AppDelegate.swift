@@ -15,7 +15,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     fileprivate func setupWindow() {
         window = UIWindow()
-        let rootViewController = UINavigationController(rootViewController: HomeViewController())
+        let homeNavigationController = UINavigationController()
+        let homeViewController = HomeViewController(
+            viewModel: HomeViewModel(navigator: HomeNavigator(navigationController: homeNavigationController))
+        )
+        homeNavigationController.setViewControllers([homeViewController], animated: false)
+        let rootViewController = homeNavigationController
         window?.rootViewController = rootViewController
         window?.makeKeyAndVisible()
     }
